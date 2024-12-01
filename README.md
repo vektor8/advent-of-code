@@ -10,3 +10,5 @@ For most days I was able to think through and implement my original solution, bu
 
 - Always look at the actual input and not only the test one as it may have been crafted with the intention to help make the problem more manageable
 - The Rust hype is huge and rightfully so, coding in a language with this type of performance and power never felt so good
+
+## 2024 - Kotlin
