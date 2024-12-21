@@ -10,7 +10,7 @@ data class Position(val row: Int, val col: Int) {
 }
 
 class Grid<T>(
-    private val grid: Array<Array<T>>,
+    val grid: Array<Array<T>>,
     private val directions: List<Position> = listOf(Position(-1, 0), Position(1, 0), Position(0, -1), Position(0, 1))
 ) {
     val height = grid.size
