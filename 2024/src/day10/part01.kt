@@ -13,8 +13,8 @@ class Grid<T>(
     private val grid: Array<Array<T>>,
     private val directions: List<Position> = listOf(Position(-1, 0), Position(1, 0), Position(0, -1), Position(0, 1))
 ) {
-    private val height = grid.size
-    private val width = grid[0].size
+    val height = grid.size
+    val width = grid[0].size
     fun getNeighbors(pos: Position) = iterator {
         for (direction in directions) {
             val newPos = pos.add(direction)
